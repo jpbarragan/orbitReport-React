@@ -1,7 +1,6 @@
 import satData from "./satData";
 
-const Buttons = props => {
-  const {filterByType, setSat, displaySats} = props;
+const Buttons = ({filterByType, setSat, displaySats}) => {
 
   return (
     <div>
